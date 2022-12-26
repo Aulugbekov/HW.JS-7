@@ -1,0 +1,45 @@
+body {
+  background: linear-gradient(
+      217deg,
+      rgba(255, 0, 0, 0.8),
+      rgba(255, 0, 0, 0) 70.71%
+    ),
+    linear-gradient(127deg, rgba(0, 255, 0, 0.8), rgba(0, 255, 0, 0) 70.71%),
+    linear-gradient(336deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 70.71%);
+  height: 800px;
+}
+
+.all {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-top: 250px;
+}
+
+h1 {
+  width: 400px;
+  margin-top: 1px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: cyan;
+  height: 38px;
+}
+
+button {
+  width: 50px;
+  height: 40px;
+
+  border-radius: 50%;
+}
+
+.counter-minus {
+  background: red;
+  color: white;
+  cursor: pointer;
+}
+
+.counter-plus {
+  background: blue;
+  color: white;
+  cursor: pointer;
+}
